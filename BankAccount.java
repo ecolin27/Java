@@ -1,14 +1,16 @@
 package Compiled;
 public class BankAccount
 {
-	int Bank_Account_Num;
+	
+   // This file is gargave 
+   int Bank_Account_Num;
 	char First_Name;
 	char Last_Name;
 	double balance;
 	boolean Fees_Apply;
 	String password;
 	
-	public Record()
+	public void Record()
 	{
 		Bank_Account_Num = 0;
 		First_Name = ' ';
@@ -17,7 +19,7 @@ public class BankAccount
 		password = " ";
 	}
 	
-	public Record(int ban, char fn, char ln, double b, String p)
+	public void Record(int ban, char fn, char ln, double b, String p)
 	{
 		Bank_Account_Num = ban;
 		First_Name = fn;
@@ -41,7 +43,7 @@ public class BankAccount
 		return Last_Name;
 	}
 	
-	public double get Balance()
+	public double getBalance()
 	{
 		return balance;
 	}
@@ -53,7 +55,7 @@ public class BankAccount
 	
 	public void setAccountNum(int an)
 	{
-		Bank_Account_Number = an;
+		Bank_Account_Num = an;
 	}
 	
 	public void setFirstName(char f)
