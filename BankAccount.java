@@ -2,7 +2,9 @@ package Compiled;
 public class BankAccount
 {
 	
-   // This file is gargave 
+   // This file is garbage
+	
+	// When will you change it??? 
    int Bank_Account_Num;
 	char First_Name;
 	char Last_Name;
